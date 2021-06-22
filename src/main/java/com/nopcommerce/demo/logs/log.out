@@ -1,0 +1,2 @@
+2021-06-22 23:06:264 INFO  HomePage :33 - Clicking on login link : [[ChromeDriver: chrome on WINDOWS (4ee26f24dee56d69253a900da522143b)] -> link text: Log in]
+2021-06-22 23:06:295 INFO  LoginPage :50 - Getting text from : [[ChromeDriver: chrome on WINDOWS (4ee26f24dee56d69253a900da522143b)] -> xpath: //div[@class='page-title']//h1]

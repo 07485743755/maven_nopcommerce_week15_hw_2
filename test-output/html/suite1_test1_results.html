@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Regression test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Regression test</h1>
+<p>
+  Test duration: 100.806s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.testSuite.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldLoggedSuccessfullyWithValidCredentials
+      </td>
+  <td class="duration">
+    33.646s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on login link : [[ChromeDriver: chrome on WINDOWS (2424abed703c10e9e22aa1231e4ccc44)] -> link text: Log in]<br>
+                                Entering email address : alinaSalvator4166@gmail.com to email field : [[ChromeDriver: chrome on WINDOWS (2424abed703c10e9e22aa1231e4ccc44)] -> id: Email]<br>
+                                Entering password : A12345 to password field : [[ChromeDriver: chrome on WINDOWS (2424abed703c10e9e22aa1231e4ccc44)] -> id: Password]<br>
+                                Clicking on login button : [[ChromeDriver: chrome on WINDOWS (2424abed703c10e9e22aa1231e4ccc44)] -> xpath: //button[@class='button-1 login-button']]<br>
+                                Getting text from : Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Log out')]'<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Nidhi\IdeaProjects\maven_nopcommerce_week15_hw_2/test-output/html/verifyUserShouldLoggedSuccessfullyWithValidCredentialsTue_Jun_22_12_18_34_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Nidhi\IdeaProjects\maven_nopcommerce_week15_hw_2/test-output/html/verifyUserShouldLoggedSuccessfullyWithValidCredentialsTue_Jun_22_12_18_34_BST_2021.jpg><img src=C:\Users\Nidhi\IdeaProjects\maven_nopcommerce_week15_hw_2/test-output/html/verifyUserShouldLoggedSuccessfullyWithValidCredentialsTue_Jun_22_12_18_34_BST_2021.jpg height=200 width=200></img></a>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\Nidhi\IdeaProjects\maven_nopcommerce_week15_hw_2/test-output/html/verifyUserShouldLoggedSuccessfullyWithValidCredentialsTue_Jun_22_12_18_34_BST_2021.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\Nidhi\IdeaProjects\maven_nopcommerce_week15_hw_2/test-output/html/verifyUserShouldLoggedSuccessfullyWithValidCredentialsTue_Jun_22_12_18_34_BST_2021.jpg><img src=C:\Users\Nidhi\IdeaProjects\maven_nopcommerce_week15_hw_2/test-output/html/verifyUserShouldLoggedSuccessfullyWithValidCredentialsTue_Jun_22_12_18_34_BST_2021.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Log out&apos;)]&quot;}<br/>
+&nbsp; (Session info: chrome=91.0.4472.114)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-7FSFVSR&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Nidhi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 2424abed703c10e9e22aa1231e4ccc44<br/>
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Log out&apos;)]}</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
+              com.sun.proxy.$Proxy10.getText(Unknown Source)<br />
+              com.nopcommerce.demo.utility.Utility.getTextFromElement(Utility.java:52)<br />
+              com.nopcommerce.demo.pages.HomePage.getTextFromLogoutButton(HomePage.java:41)<br />
+              com.nopcommerce.demo.testSuite.LoginTest.verifyUserShouldLoggedSuccessfullyWithValidCredentials(LoginTest.java:64)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.retryFailed(Invoker.java:839)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.testSuite.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldLoggedSuccessfullyWithValidCredentials
+      </td>
+  <td class="duration">
+    33.038s
+  </td>
+  <td class="result">
+                               
+    
+            <div class="testOutput">
+                        Clicking on login link : [[ChromeDriver: chrome on WINDOWS (5d3e48143d28a6bd616f1b11c9d1500b)] -> link text: Log in]<br>
+                                Entering email address : alinaSalvator823@gmail.com to email field : [[ChromeDriver: chrome on WINDOWS (5d3e48143d28a6bd616f1b11c9d1500b)] -> id: Email]<br>
+                                Entering password : A12345 to password field : [[ChromeDriver: chrome on WINDOWS (5d3e48143d28a6bd616f1b11c9d1500b)] -> id: Password]<br>
+                                Clicking on login button : [[ChromeDriver: chrome on WINDOWS (5d3e48143d28a6bd616f1b11c9d1500b)] -> xpath: //button[@class='button-1 login-button']]<br>
+                                Getting text from : Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Log out')]'<br>
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.nopcommerce.demo.testSuite.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserGetErrorMessageWithInValidCredentials
+      </td>
+  <td class="duration">
+    3.036s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"jemspeter", "@yahoo.com"</span><br />
+    
+            <div class="testOutput">
+                        Clicking on login link : [[ChromeDriver: chrome on WINDOWS (99d84387cde80f41347a634bc3d1861c)] -> link text: Log in]<br>
+                                Entering email address : jemspeter1743@yahoo.com to email field : [[ChromeDriver: chrome on WINDOWS (99d84387cde80f41347a634bc3d1861c)] -> id: Email]<br>
+                                Entering password : j23453 to password field : [[ChromeDriver: chrome on WINDOWS (99d84387cde80f41347a634bc3d1861c)] -> id: Password]<br>
+                                Clicking on login button : [[ChromeDriver: chrome on WINDOWS (99d84387cde80f41347a634bc3d1861c)] -> xpath: //button[@class='button-1 login-button']]<br>
+                                Getting text from : [[ChromeDriver: chrome on WINDOWS (99d84387cde80f41347a634bc3d1861c)] -> xpath: //div[@class='message-error validation-summary-errors']]<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserGetErrorMessageWithInValidCredentials
+      </td>
+  <td class="duration">
+    3.821s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"jems123", "@yahoo.com"</span><br />
+    
+            <div class="testOutput">
+                        Clicking on login link : [[ChromeDriver: chrome on WINDOWS (c2947fe16b3336b8c71e00603f5ec812)] -> link text: Log in]<br>
+                                Entering email address : jems12381@yahoo.com to email field : [[ChromeDriver: chrome on WINDOWS (c2947fe16b3336b8c71e00603f5ec812)] -> id: Email]<br>
+                                Entering password : j23453 to password field : [[ChromeDriver: chrome on WINDOWS (c2947fe16b3336b8c71e00603f5ec812)] -> id: Password]<br>
+                                Clicking on login button : [[ChromeDriver: chrome on WINDOWS (c2947fe16b3336b8c71e00603f5ec812)] -> xpath: //button[@class='button-1 login-button']]<br>
+                                Getting text from : [[ChromeDriver: chrome on WINDOWS (c2947fe16b3336b8c71e00603f5ec812)] -> xpath: //div[@class='message-error validation-summary-errors']]<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserGetErrorMessageWithInValidCredentials
+      </td>
+  <td class="duration">
+    3.588s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"jpeter", "@yahoo.com"</span><br />
+    
+            <div class="testOutput">
+                        Clicking on login link : [[ChromeDriver: chrome on WINDOWS (6e624c12eccf3e85633b13b004b66198)] -> link text: Log in]<br>
+                                Entering email address : jpeter3382@yahoo.com to email field : [[ChromeDriver: chrome on WINDOWS (6e624c12eccf3e85633b13b004b66198)] -> id: Email]<br>
+                                Entering password : j23453 to password field : [[ChromeDriver: chrome on WINDOWS (6e624c12eccf3e85633b13b004b66198)] -> id: Password]<br>
+                                Clicking on login button : [[ChromeDriver: chrome on WINDOWS (6e624c12eccf3e85633b13b004b66198)] -> xpath: //button[@class='button-1 login-button']]<br>
+                                Getting text from : [[ChromeDriver: chrome on WINDOWS (6e624c12eccf3e85633b13b004b66198)] -> xpath: //div[@class='message-error validation-summary-errors']]<br>
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLoginPage
+      </td>
+  <td class="duration">
+    1.171s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on login link : [[ChromeDriver: chrome on WINDOWS (5e32c3c58d723c1ae581fbcc85781bcb)] -> link text: Log in]<br>
+                                Getting text from : [[ChromeDriver: chrome on WINDOWS (5e32c3c58d723c1ae581fbcc85781bcb)] -> xpath: //div[@class='page-title']//h1]<br>
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
